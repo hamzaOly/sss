@@ -100,15 +100,12 @@ input {
 
 }
 .btn-file {
-	border-color: #defbc4;
-	color: #defbc4;
-	box-shadow: 5px 5px 2px #defbc4;
-	border: 2px solid #9ec3ff;
-	cursor: pointer;
+    cursor: pointer;
 	background-color: #5649c0;
+	font-size: 20px;
 	color: white;
+	width: 15%;
 	border: none;
-	width: 10%;
 }
 
 /*#defbc4*/
@@ -124,18 +121,37 @@ opacity: 0;
 outline: none;
 background: white;
 cursor: inherit;
-display: block;
+display: flex;
 }
 
 #img-upload{
-    width: 15%;
-	top: 250px;
+    width: 25%;
+	right: 300px;
+    border-radius: 100%;
+    background: black;
 	position: absolute;
-	border-radius: 100%;
-	background: black;
+	bottom: -130px;
 	
 	
 }
 .schedule-block {
 	margin-left: 50px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
