@@ -84,6 +84,7 @@
 .navbar-collapse {
 	position: relative;
 }
+/*
 .containar{
 	width: 50%;
 	display: flex;
@@ -92,6 +93,7 @@
 	border-radius: 10px;
 	margin-top: 150px;
 }
+*/
 #logo{
 	    vertical-align: middle;
     border-style: none;

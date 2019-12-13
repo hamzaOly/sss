@@ -1,8 +1,8 @@
-
-body{
-  background: url("./dev4.png") center bottom repeat-y;
+body {
+	background: url("./dev4.png") center bottom repeat-y;
 
 }
+
 #navbarSupportedContent {
 	flex-grow: 0;
 	font-size: 25px;
@@ -63,50 +63,79 @@ body{
 .navbar-collapse {
 	position: relative;
 }
-.h1{
-     color: #5649c0;
+
+.h1 {
+	color: #5649c0;
 }
+
 section.speaking-section {
-  padding-top: 50px;
-  margin: auto;
- 
+	padding-top: 50px;
+	margin: auto;
+
 }
-img {
-    border-radius: 50%;
-    width: 22%;
-    margin-bottom: 30px;
-    /* position: absolute;
-    top: 190px;
-    right: 280px ; */
-    border: #5649c0  3px solid ;
+
+label {
+	font-size: 20px;
+	color: #5649c0;
+
 }
-  
-      label{
-          font-size: 20px;
-          color: #5649c0;
-         
-      }
 
-      button{
-        cursor: pointer;
-        background-color:  #5649c0;;
-        font-size: 20px;
-         color: white;
-        width: 200px;
-        border: none; 
+button {
+	cursor: pointer;
+	background-color: #5649c0;
+	font-size: 20px;
+	color: white;
+	width: 100%;
+	border: none;
 
-      }
+}
 
-      input{
-        box-shadow: 0 10px 45px rgba(0, 0, 0, 0.18);
-        -webkit-box-shadow: 0 10px 45px rgba(0, 0, 0, 0.18);
-        -moz-box-shadow: 0 10px 45px rgba(0, 0, 0, 0.18);
-        -o-box-shadow: 0 10px 45px rgba(0, 0, 0, 0.18);
-        border: none; 
-     
-        
-      }
-      .schedule-block{
-          margin-left: 50px ;
-      }
-      
+input {
+	box-shadow: 0 10px 45px rgba(0, 0, 0, 0.18);
+	-webkit-box-shadow: 0 10px 45px rgba(0, 0, 0, 0.18);
+	-moz-box-shadow: 0 10px 45px rgba(0, 0, 0, 0.18);
+	-o-box-shadow: 0 10px 45px rgba(0, 0, 0, 0.18);
+	border: none;
+
+
+}
+.btn-file {
+	border-color: #defbc4;
+	color: #defbc4;
+	box-shadow: 5px 5px 2px #defbc4;
+	border: 2px solid #9ec3ff;
+	cursor: pointer;
+	background-color: #5649c0;
+	color: white;
+	border: none;
+	width: 10%;
+}
+
+/*#defbc4*/
+
+
+.btn-file input[type=file] {
+position: absolute;
+top: 0;
+right: 0;
+text-align: right;
+filter: alpha(opacity=0);
+opacity: 0;
+outline: none;
+background: white;
+cursor: inherit;
+display: block;
+}
+
+#img-upload{
+    width: 15%;
+	top: 250px;
+	position: absolute;
+	border-radius: 100%;
+	background: black;
+	
+	
+}
+.schedule-block {
+	margin-left: 50px;
+}

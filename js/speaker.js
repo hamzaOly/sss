@@ -1,4 +1,5 @@
-$(document).ready( function() {
+
+	$(document).ready( function() {
     $(document).on('change', '.btn-file :file', function() {
     var input = $(this),
         label = input.val().replace(/\\/g, '/').replace(/.*\//, '');
